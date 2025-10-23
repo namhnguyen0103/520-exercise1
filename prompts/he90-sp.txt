@@ -1,0 +1,19 @@
+// First Prompt
+You are an expert software engineer. Your task is to write a solution for the following function:
+
+def next_smallest(lst):
+    """
+    You are given a list of integers.
+    Write a function next_smallest() that returns the 2nd smallest element of the list.
+    Return None if there is no such element.
+    
+    next_smallest([1, 2, 3, 4, 5]) == 2
+    next_smallest([5, 1, 4, 3, 2]) == 2
+    next_smallest([]) == None
+    next_smallest([1, 1]) == None
+    """
+
+First, generate a comprehensive, step-by-step technical plan for this function. DO NOT write any code yet, only the plan
+
+// Second Prompt
+Using the plan you just created, write the complete and production-ready Python code. Implement all the steps outlined in your plan, including detailed comments.

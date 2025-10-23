@@ -1,3 +1,7 @@
+// First Prompt
+
+You are an expert software engineer. Your task is to write a solution for the following problem:
+
 Innocentius has a problem — his computer monitor has broken. Now some of the pixels are "dead", that is, they are always black. As consequence, Innocentius can't play the usual computer games. He is recently playing the following game with his younger brother Polycarpus.
 
 Innocentius is touch-typing a program that paints a white square one-pixel wide frame on the black screen. As the monitor is broken, some pixels that should be white remain black. Polycarpus should look at what the program displayed on the screen and guess the position and size of the frame Innocentius has painted. Polycarpus doesn't like the game but Innocentius persuaded brother to play as "the game is good for the imagination and attention".
@@ -72,4 +76,7 @@ Output
 In the first sample the required size of the optimal frame equals 4. In the second sample the size of the optimal frame equals 3. In the third sample, the size of the optimal frame is 1. In the fourth sample, the required frame doesn't exist.
 
 
-Let's think this through step-by-step. After that, give me the final python solution.
+First, generate a comprehensive, step-by-step technical plan for this function. DO NOT write any code yet, only the plan
+
+// Second Prompt
+Using the plan you just created, write the complete and production-ready Python code. Implement all the steps outlined in your plan, including detailed comments.

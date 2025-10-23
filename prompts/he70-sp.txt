@@ -1,0 +1,19 @@
+// First Prompt
+You are an expert software engineer. Your task is to write a solution for the following function:
+
+def strange_sort_list(lst):
+    '''
+    Given list of integers, return list in strange order.
+    Strange sorting, is when you start with the minimum value,
+    then maximum of the remaining integers, then minimum and so on.
+
+    Examples:
+    strange_sort_list([1, 2, 3, 4]) == [1, 4, 2, 3]
+    strange_sort_list([5, 5, 5, 5]) == [5, 5, 5, 5]
+    strange_sort_list([]) == []
+    '''
+
+First, generate a comprehensive, step-by-step technical plan for this function. DO NOT write any code yet, only the plan
+
+// Second Prompt
+Using the plan you just created, write the complete and production-ready Python code. Implement all the steps outlined in your plan, including detailed comments.

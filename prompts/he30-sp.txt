@@ -1,0 +1,15 @@
+// First Prompt
+You are an expert software engineer. Your task is to write a solution for the problem:
+
+def get_positive(l: list):
+    """Return only positive numbers in the list.
+    >>> get_positive([-1, 2, -4, 5, 6])
+    [2, 5, 6]
+    >>> get_positive([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])
+    [5, 3, 2, 3, 9, 123, 1]
+    """
+
+First, generate a comprehensive, step-by-step technical plan for this function. DO NOT write any code yet, only the plan
+
+// Second Prompt
+Using the plan you just created, write the complete and production-ready Python code. Implement all the steps outlined in your plan, including detailed comments.

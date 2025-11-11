@@ -44,7 +44,7 @@ def make_a_pile(n):
     # 3. Iterative Calculation of Subsequent Levels
     # We need to calculate stones for the remaining n-1 levels (from level 2 to n).
     # The loop runs for i = 1, 2, ..., n-1 times.
-    for i in range(1, n):
+    for i in range(1, n - 1):
         # Determine the number of stones for the next level.
         # Since the parity is already established by 'n', and we always need the 
         # *next* number of that same parity, we simply add 2 to the previous level's count.

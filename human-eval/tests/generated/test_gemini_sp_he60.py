@@ -1,6 +1,7 @@
 # AUTO-GENERATED: exec original HumanEval test (needs context)
 import pytest
 import importlib
+from gemini_sp.he60 import sum_to_n
 
 def _load_module(pkg: str, module_stem: str):
     return importlib.import_module(f"gemini_sp.he60")
@@ -27,3 +28,50 @@ def test_gemini_sp_he60():
     exec(test_code, ns, ns)
     if "check" in ns and callable(ns["check"]):
         ns["check"](candidate)
+
+def test_gemini_sp_he60_invalid_inputs():
+    # n = 0 (edge case: below 1)
+    try:
+        result = sum_to_n(0)
+        assert result == 0
+    except Exception:
+        pass  # acceptable if function raises an error
+
+    # n < 0 (negative input)
+    try:
+        result = sum_to_n(-5)
+        assert result == 0
+    except Exception:
+        pass
+
+    # n is float
+    try:
+        sum_to_n(5.5)
+        assert False, "Should raise TypeError or ValueError for float input"
+    except (TypeError, ValueError):
+        pass
+
+    # n is string
+    try:
+        sum_to_n("10")
+        assert False, "Should raise TypeError for string input"
+    except (TypeError, ValueError):
+        pass
+
+    # n is None
+    try:
+        sum_to_n(None)
+        assert False, "Should raise TypeError for None input"
+    except TypeError:
+        pass
+
+    # n is boolean (bool is subclass of int, so must be checked explicitly)
+    try:
+        result_true = sum_to_n(True)
+        result_false = sum_to_n(False)
+        # Accept either an error or explicit handling (e.g., treating bool as invalid)
+        assert result_true in (0, 1) or isinstance(result_true, int)
+        assert result_false in (0, 0) or isinstance(result_false, int)
+    except (TypeError, ValueError):
+        pass
+

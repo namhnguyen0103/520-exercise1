@@ -11,4 +11,4 @@ def make_a_pile(n: int) -> list[int]:
     """
     if not isinstance(n, int) or n <= 0:
         raise ValueError("n must be a positive integer")
-    return [n + 2 * i for i in range(n)]
+    return [n + 2 * i for i in range(n - 1)]

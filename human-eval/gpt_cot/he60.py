@@ -23,8 +23,8 @@ def sum_to_n(n: int) -> int:
     >>> sum_to_n(1)
     1
     """
-    if not isinstance(n, int):
-        raise TypeError("n must be an integer")
+    # if not isinstance(n, int):
+    #     raise TypeError("n must be an integer")
     if n < 1:
         raise ValueError("n must be >= 1 to sum from 1 to n")
 

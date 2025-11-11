@@ -17,4 +17,45 @@ def test_gemini_cot_he100_4():
 
 def test_gemini_cot_he100_5():
     assert make_a_pile(8) == [8, 10, 12, 14, 16, 18, 20, 22]
+    
+def test_gemini_cot_he100_invalid_inputs():
+    # Non-integer inputs
+    try:
+        make_a_pile(3.5)
+    except Exception:
+        pass  # acceptable behavior: should raise an error
+    else:
+        # if no exception, it must return an empty list or handle gracefully
+        assert make_a_pile(3.5) in ([], None)
+
+    try:
+        make_a_pile("4")
+    except Exception:
+        pass
+    else:
+        assert make_a_pile("4") in ([], None)
+
+    try:
+        make_a_pile([5])
+    except Exception:
+        pass
+    else:
+        assert make_a_pile([5]) in ([], None)
+
+def test_gemini_cot_he100_non_positive():
+    # Zero or negative inputs
+    try:
+        make_a_pile(0)
+    except Exception:
+        pass
+    else:
+        assert make_a_pile(0) in ([], None)
+
+    try:
+        make_a_pile(-3)
+    except Exception:
+        pass
+    else:
+        assert make_a_pile(-3) in ([], None)
+
 

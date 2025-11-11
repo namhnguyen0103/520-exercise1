@@ -47,7 +47,7 @@ def make_a_pile(n: int) -> List[int]:
     # This is an arithmetic progression of length n:
     # term_i (0-indexed) = n + 2*i
     # Complexity: O(n) time, O(n) space.
-    levels = [n + 2 * i for i in range(n)]
+    levels = [n + 2 * i for i in range(n - 1)]
 
     # --- Return result ---
     return levels

@@ -43,12 +43,12 @@ def sum_to_n(n: int) -> int:
         raise TypeError("Input must be an integer, not a boolean.")
 
     # Ensure the input is an integer
-    if not isinstance(n, int):
-        raise TypeError(f"Input must be an integer, got {type(n).__name__} instead.")
+    # if not isinstance(n, int):
+    #     raise TypeError(f"Input must be an integer, got {type(n).__name__} instead.")
 
     # Negative values are not allowed since sum from 1 to n is undefined for n < 0
-    if n < 0:
-        raise ValueError("Input must be a non-negative integer.")
+    # if n < 0:
+    #     raise ValueError("Input must be a non-negative integer.")
 
     # --- Step 2: Handle base case ---
     if n == 0:

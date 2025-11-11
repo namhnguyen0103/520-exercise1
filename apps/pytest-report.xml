@@ -1,0 +1,1609 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="24" skipped="0" tests="432" time="18.654" timestamp="2025-11-09T23:48:26.855248-05:00" hostname="Jerrys-MacBook-Pro.local"><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case0]" time="0.005" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case1]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case2]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case3]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case4]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case5]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case6]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case7]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case8]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case9]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case10]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case11]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case12]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case13]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case14]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case15]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case16]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case17]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case18]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case19]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case20]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case21]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case22]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case23]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case24]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case25]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case26]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case27]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case28]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case29]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case30]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case31]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case32]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case33]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case34]" time="0.010"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-cot/100.py&#10;  case: 34&#10;  --- input ---&#10;  6 9&#10;  ...ww....&#10;  .........&#10;  .........&#10;  .........&#10;  .........&#10;  ......w..&#10;  &#10;  --- expected ---&#10;  ...ww++++&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+++w++&#10;  &#10;  --- actual ---&#10;  .++ww++..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+++++w..&#10;  &#10;  &#10;assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'&#10;  &#10;  #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ? --#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?        ++#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (14 lines hidden), use '-vv' to show">solution_dir = 'gemini-cot', problem_id = '100', case_index = 34, input_text = '6 9\n...ww....\n.........\n.........\n.........\n.........\n......w..\n'
+expected_output = '...ww++++\n...+....+\n...+....+\n...+....+\n...+....+\n...+++w++\n', solution_path = PosixPath('gemini-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-cot/100.py
+E         case: 34
+E         --- input ---
+E         6 9
+E         ...ww....
+E         .........
+E         .........
+E         .........
+E         .........
+E         ......w..
+E         
+E         --- expected ---
+E         ...ww++++
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+++w++
+E         
+E         --- actual ---
+E         .++ww++..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+++++w..
+E         
+E         
+E       assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'
+E         
+E         #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ? --#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?        ++#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (14 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case35]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case36]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case37]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case38]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case39]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case40]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case41]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case42]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case43]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case44]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case45]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case46]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case47]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case48]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case49]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case50]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case51]" time="0.004"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-cot/100.py&#10;  case: 51&#10;  --- input ---&#10;  8 16&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w...&#10;  ................&#10;  ................&#10;  ..............w.&#10;  &#10;  --- expected ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w+++&#10;  ............+..+&#10;  ............+..+&#10;  ............++w+&#10;  &#10;  --- actual ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ...........+w++.&#10;  ...........+..+.&#10;  ...........+..+.&#10;  ...........+++w.&#10;  &#10;  &#10;assert '.....................+++w.\n' == '......................++w+\n'&#10;  &#10;  Skipping 69 identical leading characters in diff, use -v to show&#10;  #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (11 lines hidden), use '-vv' to show">solution_dir = 'gemini-cot', problem_id = '100', case_index = 51
+input_text = '8 16\n................\n................\n................\n................\n............w...\n................\n................\n..............w.\n'
+expected_output = '................\n................\n................\n................\n............w+++\n............+..+\n............+..+\n............++w+\n'
+solution_path = PosixPath('gemini-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-cot/100.py
+E         case: 51
+E         --- input ---
+E         8 16
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w...
+E         ................
+E         ................
+E         ..............w.
+E         
+E         --- expected ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w+++
+E         ............+..+
+E         ............+..+
+E         ............++w+
+E         
+E         --- actual ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ...........+w++.
+E         ...........+..+.
+E         ...........+..+.
+E         ...........+++w.
+E         
+E         
+E       assert '.....................+++w.\n' == '......................++w+\n'
+E         
+E         Skipping 69 identical leading characters in diff, use -v to show
+E         #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (11 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case52]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case53]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case54]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case55]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case56]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case57]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case58]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case59]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case60]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case61]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-cot/100.py&#10;  case: 61&#10;  --- input ---&#10;  5 6&#10;  ......&#10;  ......&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  --- expected ---&#10;  ......&#10;  ......&#10;  .ww...&#10;  .++...&#10;  ......&#10;  &#10;  --- actual ---&#10;  ......&#10;  .++...&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  &#10;assert '......\n.++.......\n......\n' == '......\n..........\n......\n'&#10;  &#10;  #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gemini-cot', problem_id = '100', case_index = 61, input_text = '5 6\n......\n......\n.ww...\n......\n......\n'
+expected_output = '......\n......\n.ww...\n.++...\n......\n', solution_path = PosixPath('gemini-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-cot/100.py
+E         case: 61
+E         --- input ---
+E         5 6
+E         ......
+E         ......
+E         .ww...
+E         ......
+E         ......
+E         
+E         --- expected ---
+E         ......
+E         ......
+E         .ww...
+E         .++...
+E         ......
+E         
+E         --- actual ---
+E         ......
+E         .++...
+E         .ww...
+E         ......
+E         ......
+E         
+E         
+E       assert '......\n.++.......\n......\n' == '......\n..........\n......\n'
+E         
+E         #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case62]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case63]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case64]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case65]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case66]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case67]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case68]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case69]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case70]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case71]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-cot/100.py&#10;  case: 71&#10;  --- input ---&#10;  5 5&#10;  .....&#10;  .....&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  --- expected ---&#10;  .....&#10;  .....&#10;  ..ww.&#10;  ..++.&#10;  .....&#10;  &#10;  --- actual ---&#10;  .....&#10;  ..++.&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  &#10;assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'&#10;  &#10;  #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gemini-cot', problem_id = '100', case_index = 71, input_text = '5 5\n.....\n.....\n..ww.\n.....\n.....\n', expected_output = '.....\n.....\n..ww.\n..++.\n.....\n'
+solution_path = PosixPath('gemini-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-cot/100.py
+E         case: 71
+E         --- input ---
+E         5 5
+E         .....
+E         .....
+E         ..ww.
+E         .....
+E         .....
+E         
+E         --- expected ---
+E         .....
+E         .....
+E         ..ww.
+E         ..++.
+E         .....
+E         
+E         --- actual ---
+E         .....
+E         ..++.
+E         ..ww.
+E         .....
+E         .....
+E         
+E         
+E       assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'
+E         
+E         #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case72]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case73]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case74]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case75]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case76]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case77]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case78]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case79]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case80]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case81]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case82]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case83]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case84]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case85]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case86]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case87]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case88]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case89]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case90]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case91]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case92]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case93]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case94]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case95]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case96]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case97]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case98]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case99]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case100]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case101]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case102]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case103]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::100::case104]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case0]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case1]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case2]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case3]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case4]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case5]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case6]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case7]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case8]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case9]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case10]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case11]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case12]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case13]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case14]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case15]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case16]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case17]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case18]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case19]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case20]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case21]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case22]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case23]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case24]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case25]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case26]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case27]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case28]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case29]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case30]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case31]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case32]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case33]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case34]" time="0.004"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-sp/100.py&#10;  case: 34&#10;  --- input ---&#10;  6 9&#10;  ...ww....&#10;  .........&#10;  .........&#10;  .........&#10;  .........&#10;  ......w..&#10;  &#10;  --- expected ---&#10;  ...ww++++&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+++w++&#10;  &#10;  --- actual ---&#10;  .++ww++..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+++++w..&#10;  &#10;  &#10;assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'&#10;  &#10;  #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ? --#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?        ++#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (14 lines hidden), use '-vv' to show">solution_dir = 'gemini-sp', problem_id = '100', case_index = 34, input_text = '6 9\n...ww....\n.........\n.........\n.........\n.........\n......w..\n'
+expected_output = '...ww++++\n...+....+\n...+....+\n...+....+\n...+....+\n...+++w++\n', solution_path = PosixPath('gemini-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-sp/100.py
+E         case: 34
+E         --- input ---
+E         6 9
+E         ...ww....
+E         .........
+E         .........
+E         .........
+E         .........
+E         ......w..
+E         
+E         --- expected ---
+E         ...ww++++
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+++w++
+E         
+E         --- actual ---
+E         .++ww++..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+++++w..
+E         
+E         
+E       assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'
+E         
+E         #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ? --#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?        ++#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (14 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case35]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case36]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case37]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case38]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case39]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case40]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case41]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case42]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case43]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case44]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case45]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case46]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case47]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case48]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case49]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case50]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case51]" time="0.004"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-sp/100.py&#10;  case: 51&#10;  --- input ---&#10;  8 16&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w...&#10;  ................&#10;  ................&#10;  ..............w.&#10;  &#10;  --- expected ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w+++&#10;  ............+..+&#10;  ............+..+&#10;  ............++w+&#10;  &#10;  --- actual ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ...........+w++.&#10;  ...........+..+.&#10;  ...........+..+.&#10;  ...........+++w.&#10;  &#10;  &#10;assert '.....................+++w.\n' == '......................++w+\n'&#10;  &#10;  Skipping 69 identical leading characters in diff, use -v to show&#10;  #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (11 lines hidden), use '-vv' to show">solution_dir = 'gemini-sp', problem_id = '100', case_index = 51
+input_text = '8 16\n................\n................\n................\n................\n............w...\n................\n................\n..............w.\n'
+expected_output = '................\n................\n................\n................\n............w+++\n............+..+\n............+..+\n............++w+\n'
+solution_path = PosixPath('gemini-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-sp/100.py
+E         case: 51
+E         --- input ---
+E         8 16
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w...
+E         ................
+E         ................
+E         ..............w.
+E         
+E         --- expected ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w+++
+E         ............+..+
+E         ............+..+
+E         ............++w+
+E         
+E         --- actual ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ...........+w++.
+E         ...........+..+.
+E         ...........+..+.
+E         ...........+++w.
+E         
+E         
+E       assert '.....................+++w.\n' == '......................++w+\n'
+E         
+E         Skipping 69 identical leading characters in diff, use -v to show
+E         #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (11 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case52]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case53]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case54]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case55]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case56]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case57]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case58]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case59]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case60]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case61]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-sp/100.py&#10;  case: 61&#10;  --- input ---&#10;  5 6&#10;  ......&#10;  ......&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  --- expected ---&#10;  ......&#10;  ......&#10;  .ww...&#10;  .++...&#10;  ......&#10;  &#10;  --- actual ---&#10;  ......&#10;  .++...&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  &#10;assert '......\n.++.......\n......\n' == '......\n..........\n......\n'&#10;  &#10;  #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gemini-sp', problem_id = '100', case_index = 61, input_text = '5 6\n......\n......\n.ww...\n......\n......\n'
+expected_output = '......\n......\n.ww...\n.++...\n......\n', solution_path = PosixPath('gemini-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-sp/100.py
+E         case: 61
+E         --- input ---
+E         5 6
+E         ......
+E         ......
+E         .ww...
+E         ......
+E         ......
+E         
+E         --- expected ---
+E         ......
+E         ......
+E         .ww...
+E         .++...
+E         ......
+E         
+E         --- actual ---
+E         ......
+E         .++...
+E         .ww...
+E         ......
+E         ......
+E         
+E         
+E       assert '......\n.++.......\n......\n' == '......\n..........\n......\n'
+E         
+E         #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case62]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case63]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case64]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case65]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case66]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case67]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case68]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case69]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case70]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case71]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gemini-sp/100.py&#10;  case: 71&#10;  --- input ---&#10;  5 5&#10;  .....&#10;  .....&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  --- expected ---&#10;  .....&#10;  .....&#10;  ..ww.&#10;  ..++.&#10;  .....&#10;  &#10;  --- actual ---&#10;  .....&#10;  ..++.&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  &#10;assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'&#10;  &#10;  #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gemini-sp', problem_id = '100', case_index = 71, input_text = '5 5\n.....\n.....\n..ww.\n.....\n.....\n', expected_output = '.....\n.....\n..ww.\n..++.\n.....\n'
+solution_path = PosixPath('gemini-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gemini-sp/100.py
+E         case: 71
+E         --- input ---
+E         5 5
+E         .....
+E         .....
+E         ..ww.
+E         .....
+E         .....
+E         
+E         --- expected ---
+E         .....
+E         .....
+E         ..ww.
+E         ..++.
+E         .....
+E         
+E         --- actual ---
+E         .....
+E         ..++.
+E         ..ww.
+E         .....
+E         .....
+E         
+E         
+E       assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'
+E         
+E         #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case72]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case73]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case74]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case75]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case76]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case77]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case78]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case79]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case80]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case81]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case82]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case83]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case84]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case85]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case86]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case87]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case88]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case89]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case90]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case91]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case92]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case93]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case94]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case95]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case96]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case97]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case98]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case99]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case100]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case101]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case102]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case103]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-sp::100::case104]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case0]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case1]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case2]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case3]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case4]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case5]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case6]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case7]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case8]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case9]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case10]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case11]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case12]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case13]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case14]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case15]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case16]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case17]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case18]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case19]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case20]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case21]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case22]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case23]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case24]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case25]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case26]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case27]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case28]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case29]" time="0.003"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 29&#10;  --- input ---&#10;  5 7&#10;  .......&#10;  .......&#10;  .......&#10;  .www...&#10;  .......&#10;  &#10;  --- expected ---&#10;  .......&#10;  .+++...&#10;  .+.+...&#10;  .www...&#10;  .......&#10;  &#10;  --- actual ---&#10;  -1&#10;  &#10;  &#10;assert '-1\n' == '.......\n.++.....\n.......\n'&#10;  &#10;  #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .+++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .+.+...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .www...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-cot', problem_id = '100', case_index = 29, input_text = '5 7\n.......\n.......\n.......\n.www...\n.......\n'
+expected_output = '.......\n.+++...\n.+.+...\n.www...\n.......\n', solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 29
+E         --- input ---
+E         5 7
+E         .......
+E         .......
+E         .......
+E         .www...
+E         .......
+E         
+E         --- expected ---
+E         .......
+E         .+++...
+E         .+.+...
+E         .www...
+E         .......
+E         
+E         --- actual ---
+E         -1
+E         
+E         
+E       assert '-1\n' == '.......\n.++.....\n.......\n'
+E         
+E         #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .+++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .+.+...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .www...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case30]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 30&#10;  --- input ---&#10;  5 7&#10;  .......&#10;  .wwww..&#10;  .......&#10;  .......&#10;  .......&#10;  &#10;  --- expected ---&#10;  .......&#10;  .wwww..&#10;  .+..+..&#10;  .+..+..&#10;  .++++..&#10;  &#10;  --- actual ---&#10;  -1&#10;  &#10;  &#10;assert '-1\n' == '.......\n.ww.....\n.++++..\n'&#10;  &#10;  #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .wwww..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .+..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .+..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .++++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-cot', problem_id = '100', case_index = 30, input_text = '5 7\n.......\n.wwww..\n.......\n.......\n.......\n'
+expected_output = '.......\n.wwww..\n.+..+..\n.+..+..\n.++++..\n', solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 30
+E         --- input ---
+E         5 7
+E         .......
+E         .wwww..
+E         .......
+E         .......
+E         .......
+E         
+E         --- expected ---
+E         .......
+E         .wwww..
+E         .+..+..
+E         .+..+..
+E         .++++..
+E         
+E         --- actual ---
+E         -1
+E         
+E         
+E       assert '-1\n' == '.......\n.ww.....\n.++++..\n'
+E         
+E         #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .wwww..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .+..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .+..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .++++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case31]" time="0.003"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 31&#10;  --- input ---&#10;  5 7&#10;  .......&#10;  .w.....&#10;  .w.....&#10;  .w.....&#10;  .w.....&#10;  &#10;  --- expected ---&#10;  .......&#10;  .w+++..&#10;  .w..+..&#10;  .w..+..&#10;  .w+++..&#10;  &#10;  --- actual ---&#10;  -1&#10;  &#10;  &#10;assert '-1\n' == '.......\n.w+.....\n.w+++..\n'&#10;  &#10;  #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .w+++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .w..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .w..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .w+++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-cot', problem_id = '100', case_index = 31, input_text = '5 7\n.......\n.w.....\n.w.....\n.w.....\n.w.....\n'
+expected_output = '.......\n.w+++..\n.w..+..\n.w..+..\n.w+++..\n', solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 31
+E         --- input ---
+E         5 7
+E         .......
+E         .w.....
+E         .w.....
+E         .w.....
+E         .w.....
+E         
+E         --- expected ---
+E         .......
+E         .w+++..
+E         .w..+..
+E         .w..+..
+E         .w+++..
+E         
+E         --- actual ---
+E         -1
+E         
+E         
+E       assert '-1\n' == '.......\n.w+.....\n.w+++..\n'
+E         
+E         #x1B[0m#x1B[92m+ -1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .w+++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .w..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .w..+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .w+++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case32]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case33]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case34]" time="0.004"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 34&#10;  --- input ---&#10;  6 9&#10;  ...ww....&#10;  .........&#10;  .........&#10;  .........&#10;  .........&#10;  ......w..&#10;  &#10;  --- expected ---&#10;  ...ww++++&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+++w++&#10;  &#10;  --- actual ---&#10;  .++ww++..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+++++w..&#10;  &#10;  &#10;assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'&#10;  &#10;  #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ? --#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?        ++#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (14 lines hidden), use '-vv' to show">solution_dir = 'gpt-cot', problem_id = '100', case_index = 34, input_text = '6 9\n...ww....\n.........\n.........\n.........\n.........\n......w..\n'
+expected_output = '...ww++++\n...+....+\n...+....+\n...+....+\n...+....+\n...+++w++\n', solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 34
+E         --- input ---
+E         6 9
+E         ...ww....
+E         .........
+E         .........
+E         .........
+E         .........
+E         ......w..
+E         
+E         --- expected ---
+E         ...ww++++
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+++w++
+E         
+E         --- actual ---
+E         .++ww++..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+++++w..
+E         
+E         
+E       assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'
+E         
+E         #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ? --#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?        ++#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (14 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case35]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case36]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case37]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case38]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case39]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case40]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case41]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case42]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case43]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case44]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case45]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case46]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case47]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case48]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case49]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case50]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case51]" time="0.004"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 51&#10;  --- input ---&#10;  8 16&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w...&#10;  ................&#10;  ................&#10;  ..............w.&#10;  &#10;  --- expected ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w+++&#10;  ............+..+&#10;  ............+..+&#10;  ............++w+&#10;  &#10;  --- actual ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ...........+w++.&#10;  ...........+..+.&#10;  ...........+..+.&#10;  ...........+++w.&#10;  &#10;  &#10;assert '.....................+++w.\n' == '......................++w+\n'&#10;  &#10;  Skipping 69 identical leading characters in diff, use -v to show&#10;  #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (11 lines hidden), use '-vv' to show">solution_dir = 'gpt-cot', problem_id = '100', case_index = 51
+input_text = '8 16\n................\n................\n................\n................\n............w...\n................\n................\n..............w.\n'
+expected_output = '................\n................\n................\n................\n............w+++\n............+..+\n............+..+\n............++w+\n'
+solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 51
+E         --- input ---
+E         8 16
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w...
+E         ................
+E         ................
+E         ..............w.
+E         
+E         --- expected ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w+++
+E         ............+..+
+E         ............+..+
+E         ............++w+
+E         
+E         --- actual ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ...........+w++.
+E         ...........+..+.
+E         ...........+..+.
+E         ...........+++w.
+E         
+E         
+E       assert '.....................+++w.\n' == '......................++w+\n'
+E         
+E         Skipping 69 identical leading characters in diff, use -v to show
+E         #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (11 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case52]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case53]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case54]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case55]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case56]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case57]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case58]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case59]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case60]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case61]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 61&#10;  --- input ---&#10;  5 6&#10;  ......&#10;  ......&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  --- expected ---&#10;  ......&#10;  ......&#10;  .ww...&#10;  .++...&#10;  ......&#10;  &#10;  --- actual ---&#10;  ......&#10;  .++...&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  &#10;assert '......\n.++.......\n......\n' == '......\n..........\n......\n'&#10;  &#10;  #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-cot', problem_id = '100', case_index = 61, input_text = '5 6\n......\n......\n.ww...\n......\n......\n'
+expected_output = '......\n......\n.ww...\n.++...\n......\n', solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 61
+E         --- input ---
+E         5 6
+E         ......
+E         ......
+E         .ww...
+E         ......
+E         ......
+E         
+E         --- expected ---
+E         ......
+E         ......
+E         .ww...
+E         .++...
+E         ......
+E         
+E         --- actual ---
+E         ......
+E         .++...
+E         .ww...
+E         ......
+E         ......
+E         
+E         
+E       assert '......\n.++.......\n......\n' == '......\n..........\n......\n'
+E         
+E         #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case62]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case63]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case64]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case65]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case66]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case67]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case68]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case69]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case70]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case71]" time="0.003"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-cot/100.py&#10;  case: 71&#10;  --- input ---&#10;  5 5&#10;  .....&#10;  .....&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  --- expected ---&#10;  .....&#10;  .....&#10;  ..ww.&#10;  ..++.&#10;  .....&#10;  &#10;  --- actual ---&#10;  .....&#10;  ..++.&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  &#10;assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'&#10;  &#10;  #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-cot', problem_id = '100', case_index = 71, input_text = '5 5\n.....\n.....\n..ww.\n.....\n.....\n', expected_output = '.....\n.....\n..ww.\n..++.\n.....\n'
+solution_path = PosixPath('gpt-cot/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-cot/100.py
+E         case: 71
+E         --- input ---
+E         5 5
+E         .....
+E         .....
+E         ..ww.
+E         .....
+E         .....
+E         
+E         --- expected ---
+E         .....
+E         .....
+E         ..ww.
+E         ..++.
+E         .....
+E         
+E         --- actual ---
+E         .....
+E         ..++.
+E         ..ww.
+E         .....
+E         .....
+E         
+E         
+E       assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'
+E         
+E         #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case72]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case73]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case74]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case75]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case76]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case77]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case78]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case79]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case80]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case81]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case82]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case83]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case84]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case85]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case86]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case87]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case88]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case89]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case90]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case91]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case92]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case93]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case94]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case95]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case96]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case97]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case98]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case99]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case100]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case101]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case102]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case103]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-cot::100::case104]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case0]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case1]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case2]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case3]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case4]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case5]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case6]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case7]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case8]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case9]" time="0.010" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case10]" time="0.025" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case11]" time="0.010" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case12]" time="0.011" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case13]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case14]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case15]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case16]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case17]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case18]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case19]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case20]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case21]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case22]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case23]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case24]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case25]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case26]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case27]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case28]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case29]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case30]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case31]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case32]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case33]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case34]" time="0.005"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-sp/100.py&#10;  case: 34&#10;  --- input ---&#10;  6 9&#10;  ...ww....&#10;  .........&#10;  .........&#10;  .........&#10;  .........&#10;  ......w..&#10;  &#10;  --- expected ---&#10;  ...ww++++&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+....+&#10;  ...+++w++&#10;  &#10;  --- actual ---&#10;  .++ww++..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+....+..&#10;  .+++++w..&#10;  &#10;  &#10;assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'&#10;  &#10;  #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ? --#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?        ++#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (14 lines hidden), use '-vv' to show">solution_dir = 'gpt-sp', problem_id = '100', case_index = 34, input_text = '6 9\n...ww....\n.........\n.........\n.........\n.........\n......w..\n'
+expected_output = '...ww++++\n...+....+\n...+....+\n...+....+\n...+....+\n...+++w++\n', solution_path = PosixPath('gpt-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-sp/100.py
+E         case: 34
+E         --- input ---
+E         6 9
+E         ...ww....
+E         .........
+E         .........
+E         .........
+E         .........
+E         ......w..
+E         
+E         --- expected ---
+E         ...ww++++
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+....+
+E         ...+++w++
+E         
+E         --- actual ---
+E         .++ww++..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+....+..
+E         .+++++w..
+E         
+E         
+E       assert '.++ww++..\n....\n.+++++w..\n' == '...ww++++\n....\n...+++w++\n'
+E         
+E         #x1B[0m#x1B[91m- ...ww++++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++ww++..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ...+....+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ? --#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .+....+..#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?        ++#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (14 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case35]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case36]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case37]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case38]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case39]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case40]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case41]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case42]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case43]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case44]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case45]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case46]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case47]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case48]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case49]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case50]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case51]" time="0.005"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-sp/100.py&#10;  case: 51&#10;  --- input ---&#10;  8 16&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w...&#10;  ................&#10;  ................&#10;  ..............w.&#10;  &#10;  --- expected ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ............w+++&#10;  ............+..+&#10;  ............+..+&#10;  ............++w+&#10;  &#10;  --- actual ---&#10;  ................&#10;  ................&#10;  ................&#10;  ................&#10;  ...........+w++.&#10;  ...........+..+.&#10;  ...........+..+.&#10;  ...........+++w.&#10;  &#10;  &#10;assert '.....................+++w.\n' == '......................++w+\n'&#10;  &#10;  Skipping 69 identical leading characters in diff, use -v to show&#10;  #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  ?           ^   ^#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...&#10;  &#10;  ...Full output truncated (11 lines hidden), use '-vv' to show">solution_dir = 'gpt-sp', problem_id = '100', case_index = 51
+input_text = '8 16\n................\n................\n................\n................\n............w...\n................\n................\n..............w.\n'
+expected_output = '................\n................\n................\n................\n............w+++\n............+..+\n............+..+\n............++w+\n'
+solution_path = PosixPath('gpt-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-sp/100.py
+E         case: 51
+E         --- input ---
+E         8 16
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w...
+E         ................
+E         ................
+E         ..............w.
+E         
+E         --- expected ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ............w+++
+E         ............+..+
+E         ............+..+
+E         ............++w+
+E         
+E         --- actual ---
+E         ................
+E         ................
+E         ................
+E         ................
+E         ...........+w++.
+E         ...........+..+.
+E         ...........+..+.
+E         ...........+++w.
+E         
+E         
+E       assert '.....................+++w.\n' == '......................++w+\n'
+E         
+E         Skipping 69 identical leading characters in diff, use -v to show
+E         #x1B[0m#x1B[91m- ...........w+++#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..........+w++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         ?           ^   ^#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ............+..+#x1B[39;49;00m#x1B[90m#x1B[39;49;00m...
+E         
+E         ...Full output truncated (11 lines hidden), use '-vv' to show
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case52]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case53]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case54]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case55]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case56]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case57]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case58]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case59]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case60]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case61]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-sp/100.py&#10;  case: 61&#10;  --- input ---&#10;  5 6&#10;  ......&#10;  ......&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  --- expected ---&#10;  ......&#10;  ......&#10;  .ww...&#10;  .++...&#10;  ......&#10;  &#10;  --- actual ---&#10;  ......&#10;  .++...&#10;  .ww...&#10;  ......&#10;  ......&#10;  &#10;  &#10;assert '......\n.++.......\n......\n' == '......\n..........\n......\n'&#10;  &#10;  #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-sp', problem_id = '100', case_index = 61, input_text = '5 6\n......\n......\n.ww...\n......\n......\n', expected_output = '......\n......\n.ww...\n.++...\n......\n'
+solution_path = PosixPath('gpt-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-sp/100.py
+E         case: 61
+E         --- input ---
+E         5 6
+E         ......
+E         ......
+E         .ww...
+E         ......
+E         ......
+E         
+E         --- expected ---
+E         ......
+E         ......
+E         .ww...
+E         .++...
+E         ......
+E         
+E         --- actual ---
+E         ......
+E         .++...
+E         .ww...
+E         ......
+E         ......
+E         
+E         
+E       assert '......\n.++.......\n......\n' == '......\n..........\n......\n'
+E         
+E         #x1B[0m#x1B[92m+ ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m ......#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .ww...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .++...#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ......#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case62]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case63]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case64]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case65]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case66]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case67]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case68]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case69]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case70]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case71]" time="0.002"><failure message="AssertionError: &#10;  === Mismatch ===&#10;  solution: gpt-sp/100.py&#10;  case: 71&#10;  --- input ---&#10;  5 5&#10;  .....&#10;  .....&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  --- expected ---&#10;  .....&#10;  .....&#10;  ..ww.&#10;  ..++.&#10;  .....&#10;  &#10;  --- actual ---&#10;  .....&#10;  ..++.&#10;  ..ww.&#10;  .....&#10;  .....&#10;  &#10;  &#10;assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'&#10;  &#10;  #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">solution_dir = 'gpt-sp', problem_id = '100', case_index = 71, input_text = '5 5\n.....\n.....\n..ww.\n.....\n.....\n', expected_output = '.....\n.....\n..ww.\n..++.\n.....\n'
+solution_path = PosixPath('gpt-sp/apps100.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+        actual = _run_script_with_stdin(solution_path, input_text)
+&gt;       assert _normalize_text(actual) == _normalize_text(expected_output), (
+            f"\n=== Mismatch ===\n"
+            f"solution: {solution_dir}/{problem_id}.py\n"
+            f"case: {case_index}\n"
+            f"--- input ---\n{input_text}\n"
+            f"--- expected ---\n{expected_output}\n"
+            f"--- actual ---\n{actual}\n"
+        )
+E       AssertionError: 
+E         === Mismatch ===
+E         solution: gpt-sp/100.py
+E         case: 71
+E         --- input ---
+E         5 5
+E         .....
+E         .....
+E         ..ww.
+E         .....
+E         .....
+E         
+E         --- expected ---
+E         .....
+E         .....
+E         ..ww.
+E         ..++.
+E         .....
+E         
+E         --- actual ---
+E         .....
+E         ..++.
+E         ..ww.
+E         .....
+E         .....
+E         
+E         
+E       assert '.....\n..++........\n.....\n' == '.....\n.........++.\n.....\n'
+E         
+E         #x1B[0m#x1B[92m+ .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[90m #x1B[39;49;00m .....#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..ww.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- ..++.#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[91m- .....#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_apps_all.py:101: AssertionError</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case72]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case73]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case74]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case75]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case76]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case77]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case78]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case79]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case80]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case81]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case82]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case83]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case84]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case85]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case86]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case87]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case88]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case89]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case90]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case91]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case92]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case93]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case94]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case95]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case96]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case97]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case98]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case99]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case100]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case101]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case102]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case103]" time="0.002" /><testcase classname="tests.test_apps_all" name="test_apps_case[gpt-sp::100::case104]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case0]" time="0.536" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case1]" time="0.001" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case2]" time="0.003" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case3]" time="0.116" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case4]" time="3.002"><failure message="Failed: Timeout (&gt;3.0s) from pytest-timeout.">solution_dir = 'gemini-cot', problem_id = '140', case_index = 4, input_text = '1 100000\n99998 0\n', expected_output = '99997\n', solution_path = PosixPath('gemini-cot/apps140.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+&gt;       actual = _run_script_with_stdin(solution_path, input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_apps_all.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_apps_all.py:79: in _run_script_with_stdin
+    runpy.run_path(str(pyfile), run_name="__main__")
+&lt;frozen runpy&gt;:287: in run_path
+    ???
+&lt;frozen runpy&gt;:98: in _run_module_code
+    ???
+&lt;frozen runpy&gt;:88: in _run_code
+    ???
+gemini-cot/apps140.py:76: in &lt;module&gt;
+    solve()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def solve():
+        # Read n and m
+        try:
+            # Read the first line of input
+            line = sys.stdin.readline()
+            if not line:
+                return
+            n, m = map(int, line.split())
+        except:
+            return
+    
+        # Read antenna data
+        antennas = []
+        for _ in range(n):
+            try:
+                x, s = map(int, sys.stdin.readline().split())
+                antennas.append((x, s))
+            except:
+                # Handle unexpected end of file mid-reading
+                return
+    
+        # DP array: DP[i] is the minimum cost to cover all integer positions from 1 to i
+        # We use m + 1 size for 0-indexing
+        # Initialize with a very large number (infinity)
+        INF = float('inf')
+        dp = [INF] * (m + 1)
+        dp[0] = 0
+    
+        # Main DP loop
+        # i is the current right-most position covered
+        for i in range(1, m + 1):
+            # j is the split point: [1, j] is covered, and [j+1, i] is covered by a single antenna
+            for j in range(i):
+                # The interval to cover is [j + 1, i]
+                L = j + 1
+                R = i
+    
+                # Find the minimum cost C[L][R] to cover [L, R] with a single antenna
+                min_cost_to_cover_LR = INF
+    
+                # Iterate through all antennas k
+                for x_k, s_k in antennas:
+                    # Minimum required scope s_req to cover [L, R]
+                    # s_req = max(|x_k - L|, |x_k - R|)
+    
+                    # Since L &lt;= R:
+                    # |x_k - L| is the distance to the left end
+                    # |x_k - R| is the distance to the right end
+                    dist_L = abs(x_k - L)
+                    dist_R = abs(x_k - R)
+    
+                    s_req = max(dist_L, dist_R)
+    
+                    # Cost is the increase in scope: max(0, s_req - s_k)
+                    cost_k = max(0, s_req - s_k)
+    
+                    min_cost_to_cover_LR = min(min_cost_to_cover_LR, cost_k)
+    
+                # DP transition: DP[i] = min(DP[i], DP[j] + min_cost_to_cover_LR)
+                if dp[j] != INF and min_cost_to_cover_LR != INF:
+&gt;                   dp[i] = min(dp[i], dp[j] + min_cost_to_cover_LR)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E                   Failed: Timeout (&gt;3.0s) from pytest-timeout.
+
+gemini-cot/apps140.py:67: Failed</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case5]" time="3.001"><failure message="Failed: Timeout (&gt;3.0s) from pytest-timeout.">solution_dir = 'gemini-cot', problem_id = '140', case_index = 5, input_text = '1 100000\n100000 0\n', expected_output = '99999\n', solution_path = PosixPath('gemini-cot/apps140.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+&gt;       actual = _run_script_with_stdin(solution_path, input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_apps_all.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_apps_all.py:79: in _run_script_with_stdin
+    runpy.run_path(str(pyfile), run_name="__main__")
+&lt;frozen runpy&gt;:287: in run_path
+    ???
+&lt;frozen runpy&gt;:98: in _run_module_code
+    ???
+&lt;frozen runpy&gt;:88: in _run_code
+    ???
+gemini-cot/apps140.py:76: in &lt;module&gt;
+    solve()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def solve():
+        # Read n and m
+        try:
+            # Read the first line of input
+            line = sys.stdin.readline()
+            if not line:
+                return
+            n, m = map(int, line.split())
+        except:
+            return
+    
+        # Read antenna data
+        antennas = []
+        for _ in range(n):
+            try:
+                x, s = map(int, sys.stdin.readline().split())
+                antennas.append((x, s))
+            except:
+                # Handle unexpected end of file mid-reading
+                return
+    
+        # DP array: DP[i] is the minimum cost to cover all integer positions from 1 to i
+        # We use m + 1 size for 0-indexing
+        # Initialize with a very large number (infinity)
+        INF = float('inf')
+        dp = [INF] * (m + 1)
+        dp[0] = 0
+    
+        # Main DP loop
+        # i is the current right-most position covered
+        for i in range(1, m + 1):
+            # j is the split point: [1, j] is covered, and [j+1, i] is covered by a single antenna
+            for j in range(i):
+                # The interval to cover is [j + 1, i]
+                L = j + 1
+                R = i
+    
+                # Find the minimum cost C[L][R] to cover [L, R] with a single antenna
+                min_cost_to_cover_LR = INF
+    
+                # Iterate through all antennas k
+                for x_k, s_k in antennas:
+                    # Minimum required scope s_req to cover [L, R]
+                    # s_req = max(|x_k - L|, |x_k - R|)
+    
+                    # Since L &lt;= R:
+                    # |x_k - L| is the distance to the left end
+                    # |x_k - R| is the distance to the right end
+                    dist_L = abs(x_k - L)
+                    dist_R = abs(x_k - R)
+    
+                    s_req = max(dist_L, dist_R)
+    
+                    # Cost is the increase in scope: max(0, s_req - s_k)
+                    cost_k = max(0, s_req - s_k)
+    
+&gt;                   min_cost_to_cover_LR = min(min_cost_to_cover_LR, cost_k)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E                   Failed: Timeout (&gt;3.0s) from pytest-timeout.
+
+gemini-cot/apps140.py:63: Failed</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case6]" time="3.012"><failure message="Failed: Timeout (&gt;3.0s) from pytest-timeout.">solution_dir = 'gemini-cot', problem_id = '140', case_index = 6, input_text = '1 100000\n1 0\n', expected_output = '99999\n', solution_path = PosixPath('gemini-cot/apps140.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+&gt;       actual = _run_script_with_stdin(solution_path, input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_apps_all.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_apps_all.py:79: in _run_script_with_stdin
+    runpy.run_path(str(pyfile), run_name="__main__")
+&lt;frozen runpy&gt;:287: in run_path
+    ???
+&lt;frozen runpy&gt;:98: in _run_module_code
+    ???
+&lt;frozen runpy&gt;:88: in _run_code
+    ???
+gemini-cot/apps140.py:76: in &lt;module&gt;
+    solve()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def solve():
+        # Read n and m
+        try:
+            # Read the first line of input
+            line = sys.stdin.readline()
+            if not line:
+                return
+            n, m = map(int, line.split())
+        except:
+            return
+    
+        # Read antenna data
+        antennas = []
+        for _ in range(n):
+            try:
+                x, s = map(int, sys.stdin.readline().split())
+                antennas.append((x, s))
+            except:
+                # Handle unexpected end of file mid-reading
+                return
+    
+        # DP array: DP[i] is the minimum cost to cover all integer positions from 1 to i
+        # We use m + 1 size for 0-indexing
+        # Initialize with a very large number (infinity)
+        INF = float('inf')
+        dp = [INF] * (m + 1)
+        dp[0] = 0
+    
+        # Main DP loop
+        # i is the current right-most position covered
+        for i in range(1, m + 1):
+            # j is the split point: [1, j] is covered, and [j+1, i] is covered by a single antenna
+            for j in range(i):
+                # The interval to cover is [j + 1, i]
+                L = j + 1
+                R = i
+    
+                # Find the minimum cost C[L][R] to cover [L, R] with a single antenna
+                min_cost_to_cover_LR = INF
+    
+                # Iterate through all antennas k
+                for x_k, s_k in antennas:
+                    # Minimum required scope s_req to cover [L, R]
+                    # s_req = max(|x_k - L|, |x_k - R|)
+    
+                    # Since L &lt;= R:
+                    # |x_k - L| is the distance to the left end
+                    # |x_k - R| is the distance to the right end
+&gt;                   dist_L = abs(x_k - L)
+                             ^^^^^^^^^^^^
+E                   Failed: Timeout (&gt;3.0s) from pytest-timeout.
+
+gemini-cot/apps140.py:55: Failed</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case7]" time="3.001"><failure message="Failed: Timeout (&gt;3.0s) from pytest-timeout.">solution_dir = 'gemini-cot', problem_id = '140', case_index = 7, input_text = '2 100000\n1 0\n100000 0\n', expected_output = '99998\n'
+solution_path = PosixPath('gemini-cot/apps140.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+&gt;       actual = _run_script_with_stdin(solution_path, input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_apps_all.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_apps_all.py:79: in _run_script_with_stdin
+    runpy.run_path(str(pyfile), run_name="__main__")
+&lt;frozen runpy&gt;:287: in run_path
+    ???
+&lt;frozen runpy&gt;:98: in _run_module_code
+    ???
+&lt;frozen runpy&gt;:88: in _run_code
+    ???
+gemini-cot/apps140.py:76: in &lt;module&gt;
+    solve()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def solve():
+        # Read n and m
+        try:
+            # Read the first line of input
+            line = sys.stdin.readline()
+            if not line:
+                return
+            n, m = map(int, line.split())
+        except:
+            return
+    
+        # Read antenna data
+        antennas = []
+        for _ in range(n):
+            try:
+                x, s = map(int, sys.stdin.readline().split())
+                antennas.append((x, s))
+            except:
+                # Handle unexpected end of file mid-reading
+                return
+    
+        # DP array: DP[i] is the minimum cost to cover all integer positions from 1 to i
+        # We use m + 1 size for 0-indexing
+        # Initialize with a very large number (infinity)
+        INF = float('inf')
+        dp = [INF] * (m + 1)
+        dp[0] = 0
+    
+        # Main DP loop
+        # i is the current right-most position covered
+        for i in range(1, m + 1):
+            # j is the split point: [1, j] is covered, and [j+1, i] is covered by a single antenna
+            for j in range(i):
+                # The interval to cover is [j + 1, i]
+                L = j + 1
+                R = i
+    
+                # Find the minimum cost C[L][R] to cover [L, R] with a single antenna
+                min_cost_to_cover_LR = INF
+    
+                # Iterate through all antennas k
+                for x_k, s_k in antennas:
+                    # Minimum required scope s_req to cover [L, R]
+                    # s_req = max(|x_k - L|, |x_k - R|)
+    
+                    # Since L &lt;= R:
+                    # |x_k - L| is the distance to the left end
+                    # |x_k - R| is the distance to the right end
+                    dist_L = abs(x_k - L)
+&gt;                   dist_R = abs(x_k - R)
+                             ^^^^^^^^^^^^
+E                   Failed: Timeout (&gt;3.0s) from pytest-timeout.
+
+gemini-cot/apps140.py:56: Failed</failure></testcase><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case8]" time="0.303" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case9]" time="0.238" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case10]" time="0.239" /><testcase classname="tests.test_apps_all" name="test_apps_case[gemini-cot::140::case11]" time="3.003"><failure message="Failed: Timeout (&gt;3.0s) from pytest-timeout.">solution_dir = 'gemini-cot', problem_id = '140', case_index = 11
+input_text = '25 100000\n69213 4\n76932 3\n84327 3\n93894 2\n64725 1\n87331 1\n58612 3\n79789 1\n93768 3\n59583 5\n50523 3\n97497 4\n3051 1\n79960 0\n776 5\n36189 1\n15585 5\n6881 0\n54720 0\n30083 4\n4470 3\n77336 2\n96150 1\n59705 3\n59300 1\n'
+expected_output = '49963\n', solution_path = PosixPath('gemini-cot/apps140.py')
+
+    @pytest.mark.parametrize(
+        "solution_dir,problem_id,case_index,input_text,expected_output,solution_path",
+        _PARAMS,
+        ids=_IDS
+    )
+    def test_apps_case(solution_dir, problem_id, case_index, input_text, expected_output, solution_path):
+        # Skipped items (missing solution) never reach here
+        # OPTIONAL: enforce per-case timeout with pytest-timeout (uncomment if you use it)
+        # pytest.timeout(DEFAULT_TIMEOUT_S)
+    
+&gt;       actual = _run_script_with_stdin(solution_path, input_text)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+tests/test_apps_all.py:100: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+tests/test_apps_all.py:79: in _run_script_with_stdin
+    runpy.run_path(str(pyfile), run_name="__main__")
+&lt;frozen runpy&gt;:287: in run_path
+    ???
+&lt;frozen runpy&gt;:98: in _run_module_code
+    ???
+&lt;frozen runpy&gt;:88: in _run_code
+    ???
+gemini-cot/apps140.py:76: in &lt;module&gt;
+    solve()
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+    def solve():
+        # Read n and m
+        try:
+            # Read the first line of input
+            line = sys.stdin.readline()
+            if not line:
+                return
+            n, m = map(int, line.split())
+        except:
+            return
+    
+        # Read antenna data
+        antennas = []
+        for _ in range(n):
+            try:
+                x, s = map(int, sys.stdin.readline().split())
+                antennas.append((x, s))
+            except:
+                # Handle unexpected end of file mid-reading
+                return
+    
+        # DP array: DP[i] is the minimum cost to cover all integer positions from 1 to i
+        # We use m + 1 size for 0-indexing
+        # Initialize with a very large number (infinity)
+        INF = float('inf')
+        dp = [INF] * (m + 1)
+        dp[0] = 0
+    
+        # Main DP loop
+        # i is the current right-most position covered
+        for i in range(1, m + 1):
+            # j is the split point: [1, j] is covered, and [j+1, i] is covered by a single antenna
+            for j in range(i):
+                # The interval to cover is [j + 1, i]
+                L = j + 1
+                R = i
+    
+                # Find the minimum cost C[L][R] to cover [L, R] with a single antenna
+                min_cost_to_cover_LR = INF
+    
+                # Iterate through all antennas k
+                for x_k, s_k in antennas:
+                    # Minimum required scope s_req to cover [L, R]
+                    # s_req = max(|x_k - L|, |x_k - R|)
+    
+                    # Since L &lt;= R:
+                    # |x_k - L| is the distance to the left end
+                    # |x_k - R| is the distance to the right end
+                    dist_L = abs(x_k - L)
+&gt;                   dist_R = abs(x_k - R)
+                             ^^^^^^^^^^^^
+E                   Failed: Timeout (&gt;3.0s) from pytest-timeout.
+
+gemini-cot/apps140.py:56: Failed</failure></testcase><testcase time="0.000" /></testsuite></testsuites>

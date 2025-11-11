@@ -1,2 +1,6 @@
+gemini_cot
+gemini_sp
+gpt_cot
+gpt_sp
 human-eval
 human_eval

@@ -28,8 +28,8 @@ def sum_to_n(n: int) -> int:
     # The function is defined for summing positive integers (1 to n).
     # If n is less than 1 (0 or negative), the sum of the series is 
     # considered 0, representing the sum over an empty set of positive integers.
-    if n < 1:
-        return 0
+    # if n < 1:
+    #     return 0
 
     # --- Core Logic (Plan Steps 1, 2, 4) ---
     # Calculate the sum using the direct mathematical formula (O(1) complexity):

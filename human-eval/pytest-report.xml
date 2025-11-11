@@ -1,1 +1,248 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="132" time="0.680" timestamp="2025-11-09T19:44:27.998950-05:00" hostname="Jerrys-MacBook-Pro.local"><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_1" time="0.002" /><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_2" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_3" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_4" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_5" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he30" name="test_gemini_cot_he30" time="0.005" /><testcase classname="tests.generated.test_gemini_cot_he40" name="test_gemini_cot_he40" time="0.002" /><testcase classname="tests.generated.test_gemini_cot_he50" name="test_gemini_cot_he50" time="0.008" /><testcase classname="tests.generated.test_gemini_cot_he60" name="test_gemini_cot_he60" time="0.003" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_1" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_2" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_3" time="0.003" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_4" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_5" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_6" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_7" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_8" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_9" time="0.008" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_1" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_2" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_3" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_4" time="0.004" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_5" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_6" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_7" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_8" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_1" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_2" time="0.002" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_3" time="0.005" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_4" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_5" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_6" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_7" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_1" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_3" time="0.002" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_4" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_5" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he30" name="test_gemini_sp_he30" time="0.004" /><testcase classname="tests.generated.test_gemini_sp_he40" name="test_gemini_sp_he40" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he50" name="test_gemini_sp_he50" time="0.004" /><testcase classname="tests.generated.test_gemini_sp_he60" name="test_gemini_sp_he60" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_1" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_3" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_4" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_5" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_6" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_7" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_8" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_9" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_1" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_2" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_3" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_4" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_5" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_6" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_7" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_8" time="0.002" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_1" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_3" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_4" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_5" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_6" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_7" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_1" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_2" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_3" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_4" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_5" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he30" name="test_gpt_cot_he30" time="0.002" /><testcase classname="tests.generated.test_gpt_cot_he40" name="test_gpt_cot_he40" time="0.004" /><testcase classname="tests.generated.test_gpt_cot_he50" name="test_gpt_cot_he50" time="0.011" /><testcase classname="tests.generated.test_gpt_cot_he60" name="test_gpt_cot_he60" time="0.002" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_1" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_2" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_3" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_5" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_7" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_8" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_9" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_1" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_2" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_3" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_5" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_7" time="0.002" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_8" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_1" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_2" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_3" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_5" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_2" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_3" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_4" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_5" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he30" name="test_gpt_sp_he30" time="0.002" /><testcase classname="tests.generated.test_gpt_sp_he40" name="test_gpt_sp_he40" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he50" name="test_gpt_sp_he50" time="0.007" /><testcase classname="tests.generated.test_gpt_sp_he60" name="test_gpt_sp_he60" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_2" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_4" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_5" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_8" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_9" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_1" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_2" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_4" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_5" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_8" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_2" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_4" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_5" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_7" time="0.000" /></testsuite></testsuites>
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="25" skipped="0" tests="144" time="0.527" timestamp="2025-11-10T20:50:15.022358-05:00" hostname="Jerrys-MacBook-Pro.local"><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_1" time="0.139"><failure message="AssertionError: Test 3&#10;assert [3, 5, 7, 9] == [3, 5, 7]&#10;  &#10;  Left contains one more item: #x1B[0m#x1B[94m9#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_cot_he100_1():
+&gt;       assert make_a_pile(3) == [3, 5, 7], "Test 3"
+E       AssertionError: Test 3
+E       assert [3, 5, 7, 9] == [3, 5, 7]
+E         
+E         Left contains one more item: #x1B[0m#x1B[94m9#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_cot_he100.py:7: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_2" time="0.001"><failure message="AssertionError: Test 4&#10;assert [4, 6, 8, 10, 12] == [4, 6, 8, 10]&#10;  &#10;  Left contains one more item: #x1B[0m#x1B[94m12#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_cot_he100_2():
+&gt;       assert make_a_pile(4) == [4,6,8,10], "Test 4"
+E       AssertionError: Test 4
+E       assert [4, 6, 8, 10, 12] == [4, 6, 8, 10]
+E         
+E         Left contains one more item: #x1B[0m#x1B[94m12#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_cot_he100.py:10: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_3" time="0.000"><failure message="assert [5, 7, 9, 11, 13, 15] == [5, 7, 9, 11, 13]&#10;  &#10;  Left contains one more item: #x1B[0m#x1B[94m15#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_cot_he100_3():
+&gt;       assert make_a_pile(5) == [5, 7, 9, 11, 13]
+E       assert [5, 7, 9, 11, 13, 15] == [5, 7, 9, 11, 13]
+E         
+E         Left contains one more item: #x1B[0m#x1B[94m15#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_cot_he100.py:13: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_4" time="0.000"><failure message="assert [6, 8, 10, 12, 14, 16, ...] == [6, 8, 10, 12, 14, 16]&#10;  &#10;  Left contains one more item: #x1B[0m#x1B[94m18#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_cot_he100_4():
+&gt;       assert make_a_pile(6) == [6, 8, 10, 12, 14, 16]
+E       assert [6, 8, 10, 12, 14, 16, ...] == [6, 8, 10, 12, 14, 16]
+E         
+E         Left contains one more item: #x1B[0m#x1B[94m18#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_cot_he100.py:16: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_5" time="0.000"><failure message="assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]&#10;  &#10;  Left contains one more item: #x1B[0m#x1B[94m24#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_cot_he100_5():
+&gt;       assert make_a_pile(8) == [8, 10, 12, 14, 16, 18, 20, 22]
+E       assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]
+E         
+E         Left contains one more item: #x1B[0m#x1B[94m24#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_cot_he100.py:19: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_invalid_inputs" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he100" name="test_gemini_cot_he100_non_positive" time="0.000"><failure message="assert [0] in ([], None)&#10; +  where [0] = make_a_pile(0)">def test_gemini_cot_he100_non_positive():
+        # Zero or negative inputs
+        try:
+            make_a_pile(0)
+        except Exception:
+            pass
+        else:
+&gt;           assert make_a_pile(0) in ([], None)
+E           assert [0] in ([], None)
+E            +  where [0] = make_a_pile(0)
+
+tests/generated/test_gemini_cot_he100.py:52: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he30" name="test_gemini_cot_he30" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he40" name="test_gemini_cot_he40" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he50" name="test_gemini_cot_he50" time="0.003" /><testcase classname="tests.generated.test_gemini_cot_he60" name="test_gemini_cot_he60" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he60" name="test_gemini_cot_he60_invalid_inputs" time="0.000"><failure message="AssertionError: Should raise TypeError or ValueError for float input&#10;assert False">def test_gemini_cot_he60_invalid_inputs():
+        # n = 0 (edge case: below 1)
+        try:
+            result = sum_to_n(0)
+            assert result == 0
+        except Exception:
+            pass  # acceptable if function raises an error
+    
+        # n &lt; 0 (negative input)
+        try:
+            result = sum_to_n(-5)
+            assert result == 0
+        except Exception:
+            pass
+    
+        # n is float
+        try:
+            sum_to_n(5.5)
+&gt;           assert False, "Should raise TypeError or ValueError for float input"
+E           AssertionError: Should raise TypeError or ValueError for float input
+E           assert False
+
+tests/generated/test_gemini_cot_he60.py:50: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_1" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_2" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_3" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_4" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_5" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_6" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_7" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_8" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he70" name="test_gemini_cot_he70_9" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_1" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_2" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_3" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_4" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_5" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_6" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_7" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he80" name="test_gemini_cot_he80_8" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_1" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_2" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_3" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_4" time="0.001" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_5" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_6" time="0.000" /><testcase classname="tests.generated.test_gemini_cot_he90" name="test_gemini_cot_he90_7" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_1" time="0.000"><failure message="AssertionError: Test 3&#10;assert [3, 5] == [3, 5, 7]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_sp_he100_1():
+&gt;       assert make_a_pile(3) == [3, 5, 7], "Test 3"
+E       AssertionError: Test 3
+E       assert [3, 5] == [3, 5, 7]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_sp_he100.py:7: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_2" time="0.000"><failure message="AssertionError: Test 4&#10;assert [4, 6, 8] == [4, 6, 8, 10]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_sp_he100_2():
+&gt;       assert make_a_pile(4) == [4,6,8,10], "Test 4"
+E       AssertionError: Test 4
+E       assert [4, 6, 8] == [4, 6, 8, 10]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_sp_he100.py:10: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_3" time="0.000"><failure message="assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_sp_he100_3():
+&gt;       assert make_a_pile(5) == [5, 7, 9, 11, 13]
+E       assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_sp_he100.py:13: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_4" time="0.000"><failure message="assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_sp_he100_4():
+&gt;       assert make_a_pile(6) == [6, 8, 10, 12, 14, 16]
+E       assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_sp_he100.py:16: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_5" time="0.000"><failure message="assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gemini_sp_he100_5():
+&gt;       assert make_a_pile(8) == [8, 10, 12, 14, 16, 18, 20, 22]
+E       assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gemini_sp_he100.py:19: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_invalid_inputs" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he100" name="test_gemini_sp_he100_non_positive" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he30" name="test_gemini_sp_he30" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he40" name="test_gemini_sp_he40" time="0.001" /><testcase classname="tests.generated.test_gemini_sp_he50" name="test_gemini_sp_he50" time="0.002" /><testcase classname="tests.generated.test_gemini_sp_he60" name="test_gemini_sp_he60" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he60" name="test_gemini_sp_he60_invalid_inputs" time="0.000"><failure message="AssertionError: Should raise TypeError or ValueError for float input&#10;assert False">def test_gemini_sp_he60_invalid_inputs():
+        # n = 0 (edge case: below 1)
+        try:
+            result = sum_to_n(0)
+            assert result == 0
+        except Exception:
+            pass  # acceptable if function raises an error
+    
+        # n &lt; 0 (negative input)
+        try:
+            result = sum_to_n(-5)
+            assert result == 0
+        except Exception:
+            pass
+    
+        # n is float
+        try:
+            sum_to_n(5.5)
+&gt;           assert False, "Should raise TypeError or ValueError for float input"
+E           AssertionError: Should raise TypeError or ValueError for float input
+E           assert False
+
+tests/generated/test_gemini_sp_he60.py:50: AssertionError</failure></testcase><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_1" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_3" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_4" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_5" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_6" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_7" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_8" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he70" name="test_gemini_sp_he70_9" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_1" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_3" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_4" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_5" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_6" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_7" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he80" name="test_gemini_sp_he80_8" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_1" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_2" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_3" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_4" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_5" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_6" time="0.000" /><testcase classname="tests.generated.test_gemini_sp_he90" name="test_gemini_sp_he90_7" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_1" time="0.000"><failure message="AssertionError: Test 3&#10;assert [3, 5] == [3, 5, 7]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_cot_he100_1():
+&gt;       assert make_a_pile(3) == [3, 5, 7], "Test 3"
+E       AssertionError: Test 3
+E       assert [3, 5] == [3, 5, 7]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_cot_he100.py:7: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_2" time="0.000"><failure message="AssertionError: Test 4&#10;assert [4, 6, 8] == [4, 6, 8, 10]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_cot_he100_2():
+&gt;       assert make_a_pile(4) == [4,6,8,10], "Test 4"
+E       AssertionError: Test 4
+E       assert [4, 6, 8] == [4, 6, 8, 10]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_cot_he100.py:10: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_3" time="0.001"><failure message="assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_cot_he100_3():
+&gt;       assert make_a_pile(5) == [5, 7, 9, 11, 13]
+E       assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_cot_he100.py:13: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_4" time="0.000"><failure message="assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_cot_he100_4():
+&gt;       assert make_a_pile(6) == [6, 8, 10, 12, 14, 16]
+E       assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_cot_he100.py:16: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_5" time="0.000"><failure message="assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_cot_he100_5():
+&gt;       assert make_a_pile(8) == [8, 10, 12, 14, 16, 18, 20, 22]
+E       assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_cot_he100.py:19: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_invalid_inputs" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he100" name="test_gpt_cot_he100_non_positive" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he30" name="test_gpt_cot_he30" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he40" name="test_gpt_cot_he40" time="0.001" /><testcase classname="tests.generated.test_gpt_cot_he50" name="test_gpt_cot_he50" time="0.003" /><testcase classname="tests.generated.test_gpt_cot_he60" name="test_gpt_cot_he60" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he60" name="test_gpt_cot_he60_invalid_inputs" time="0.000"><failure message="AssertionError: Should raise TypeError or ValueError for float input&#10;assert False">def test_gpt_cot_he60_invalid_inputs():
+        # n = 0 (edge case: below 1)
+        try:
+            result = sum_to_n(0)
+            assert result == 0
+        except Exception:
+            pass  # acceptable if function raises an error
+    
+        # n &lt; 0 (negative input)
+        try:
+            result = sum_to_n(-5)
+            assert result == 0
+        except Exception:
+            pass
+    
+        # n is float
+        try:
+            sum_to_n(5.5)
+&gt;           assert False, "Should raise TypeError or ValueError for float input"
+E           AssertionError: Should raise TypeError or ValueError for float input
+E           assert False
+
+tests/generated/test_gpt_cot_he60.py:50: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_1" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_2" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_3" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_5" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_7" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_8" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he70" name="test_gpt_cot_he70_9" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_1" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_2" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_3" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_5" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_7" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he80" name="test_gpt_cot_he80_8" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_1" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_2" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_3" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_4" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_5" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_6" time="0.000" /><testcase classname="tests.generated.test_gpt_cot_he90" name="test_gpt_cot_he90_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_1" time="0.001"><failure message="AssertionError: Test 3&#10;assert [3, 5] == [3, 5, 7]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_sp_he100_1():
+&gt;       assert make_a_pile(3) == [3, 5, 7], "Test 3"
+E       AssertionError: Test 3
+E       assert [3, 5] == [3, 5, 7]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m7#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_sp_he100.py:7: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_2" time="0.000"><failure message="AssertionError: Test 4&#10;assert [4, 6, 8] == [4, 6, 8, 10]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_sp_he100_2():
+&gt;       assert make_a_pile(4) == [4,6,8,10], "Test 4"
+E       AssertionError: Test 4
+E       assert [4, 6, 8] == [4, 6, 8, 10]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m10#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_sp_he100.py:10: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_3" time="0.000"><failure message="assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_sp_he100_3():
+&gt;       assert make_a_pile(5) == [5, 7, 9, 11, 13]
+E       assert [5, 7, 9, 11] == [5, 7, 9, 11, 13]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m13#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_sp_he100.py:13: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_4" time="0.000"><failure message="assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_sp_he100_4():
+&gt;       assert make_a_pile(6) == [6, 8, 10, 12, 14, 16]
+E       assert [6, 8, 10, 12, 14] == [6, 8, 10, 12, 14, 16]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m16#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_sp_he100.py:16: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_5" time="0.000"><failure message="assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">def test_gpt_sp_he100_5():
+&gt;       assert make_a_pile(8) == [8, 10, 12, 14, 16, 18, 20, 22]
+E       assert [8, 10, 12, 14, 16, 18, ...] == [8, 10, 12, 14, 16, 18, ...]
+E         
+E         Right contains one more item: #x1B[0m#x1B[94m22#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+tests/generated/test_gpt_sp_he100.py:19: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_invalid_inputs" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he100" name="test_gpt_sp_he100_non_positive" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he30" name="test_gpt_sp_he30" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he40" name="test_gpt_sp_he40" time="0.001" /><testcase classname="tests.generated.test_gpt_sp_he50" name="test_gpt_sp_he50" time="0.003" /><testcase classname="tests.generated.test_gpt_sp_he60" name="test_gpt_sp_he60" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he60" name="test_gpt_sp_he60_invalid_inputs" time="0.000"><failure message="AssertionError: Should raise TypeError or ValueError for float input&#10;assert False">def test_gpt_sp_he60_invalid_inputs():
+        # n = 0 (edge case: below 1)
+        try:
+            result = sum_to_n(0)
+            assert result == 0
+        except Exception:
+            pass  # acceptable if function raises an error
+    
+        # n &lt; 0 (negative input)
+        try:
+            result = sum_to_n(-5)
+            assert result == 0
+        except Exception:
+            pass
+    
+        # n is float
+        try:
+            sum_to_n(5.5)
+&gt;           assert False, "Should raise TypeError or ValueError for float input"
+E           AssertionError: Should raise TypeError or ValueError for float input
+E           assert False
+
+tests/generated/test_gpt_sp_he60.py:50: AssertionError</failure></testcase><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_2" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_4" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_5" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_8" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he70" name="test_gpt_sp_he70_9" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_2" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_4" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_5" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_7" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he80" name="test_gpt_sp_he80_8" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_1" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_2" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_3" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_4" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_5" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_6" time="0.000" /><testcase classname="tests.generated.test_gpt_sp_he90" name="test_gpt_sp_he90_7" time="0.000" /></testsuite></testsuites>

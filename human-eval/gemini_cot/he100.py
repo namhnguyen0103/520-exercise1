@@ -17,7 +17,7 @@ def make_a_pile(n):
     
     # 3. Iterate n-1 times to generate the remaining levels.
     # The total number of levels is n, so we need n-1 more levels after the first one.
-    for _ in range(n - 1):
+    for _ in range(n):
         # 4. In each iteration, the next level has 2 more stones than the previous.
         current_stones += 2
         
